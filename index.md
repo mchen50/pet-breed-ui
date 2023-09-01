@@ -1,8 +1,9 @@
-# pet-breed-ui
+---
+title: Home
+layout: page
+---
 
-Frontend UI for classifying pet breed by calling huggingface space api
-
-## Pet Breed Classifier on HuggingFace Space using Gradio
+# Simple JS Image Classifiers
 
 Check the amazing pet breed space in my [HuggingFace Space](https://huggingface.co/spaces/saicmsaicm/pet-breed)
 

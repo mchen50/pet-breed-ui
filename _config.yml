@@ -1,0 +1,9 @@
+remote_theme: daviddarnes/alembic@main
+plugins:
+- jekyll-remote-theme
+
+title: Pet Breed Classifier
+description: Some basic examples of client interfaces to a Pet Breed Classifier API
+
+author:
+  name: mchen50
