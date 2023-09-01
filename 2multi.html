@@ -4,6 +4,7 @@ layout: page
 ---
 
 <input id="photos" type="file" multiple="">
+<div id="results"></div>
 
 <script type="module">
     import { client } from "https://cdn.jsdelivr.net/npm/@gradio/client";
@@ -19,7 +20,7 @@ layout: page
 
         const div = document.createElement('div');
         div.innerHTML = `<br/><img src="${reader.result}" width="300"> <p>${label}</p>`
-        document.body.append(div);
+        results.append(div);
     }
 
     function read(file) {
